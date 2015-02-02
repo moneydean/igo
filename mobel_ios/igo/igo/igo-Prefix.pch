@@ -1,0 +1,44 @@
+//
+//  igo-Prefix.pch
+//  igo
+//
+//  Created by DingYunYu on 14/12/3.
+//  Copyright (c) 2014年 DingYunYu. All rights reserved.
+//
+
+#ifndef igo_igo_Prefix_pch
+#define igo_igo_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+//导包
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+//第三方
+#import "MBProgressHUD.h"
+#import "SVPullToRefresh.h"
+#import "UIImage+ImageEffects.h"
+#import "JSONKit.h"
+#import "AFNetworking.h"
+
+
+//utility的文件
+#import "NSObject+FDDNSObjectCatagory.h"
+#import "FDDGlobalEnums.h"
+#import "FDDGlobalProtocol.h"
+#import "FDDGlobalConstants.h"
+#import "FDDMacros.h"
+#import "FDDUtils.h"
+#import "FDDParsePbToObject.h"
+#import "FDDURLConstants.h"
+
+
+//基础父类
+#import "AppDelegate.h"
+#import "UIBaseViewController.h"
+
+#endif
